@@ -25,6 +25,7 @@ services:
 
 
   redis:
+    image: redis
 
   user:
     image: user:1
