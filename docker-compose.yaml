@@ -1,18 +1,18 @@
 networks:
   default:
-    external: true
+    external: 
       name: roboshop
 
 services:
   mongodb:
     image: mongodb:5
-    networks:
-      - roboshop
+    # networks:
+    #   - roboshop
 
   catalogue:
     image: catalogue:v1
-    networks:
-      - roboshop
+    # networks:
+    # - roboshop
     depends_on:
       - mongodb
 
