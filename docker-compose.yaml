@@ -24,4 +24,5 @@ services:
       - catalogue
 
 
-
+  redis:
+  
