@@ -1,6 +1,7 @@
 networks:
-  roboshop:
+  default:
     external: true
+    name: roboshop
 
 services:
   mongodb:
