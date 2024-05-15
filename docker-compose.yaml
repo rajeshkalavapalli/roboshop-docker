@@ -5,7 +5,7 @@ networks:
 
 services:
   mongodb:
-    image: mongodb:5
+    image: mongodb:1
     # networks:
     #   - roboshop
 
