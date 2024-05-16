@@ -94,6 +94,7 @@ services:
     - rabbitmq
     - user 
     - cart
+    
 
 
 
