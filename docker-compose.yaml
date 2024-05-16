@@ -6,7 +6,7 @@ volumes:
   mongodb:
   redis:  
   mysql:
-  rabbimq:
+  rabbitmq:
 
 services:
   mongodb:
@@ -94,7 +94,7 @@ services:
     - rabbitmq
     - user 
     - cart
-    
+
 
 
 
